@@ -1,0 +1,27 @@
+/* Pagination */
+.mrt-table-pagination {
+    @apply flex flex-wrap items-center gap-4 p-4;
+}
+.mrt-table-pagination > :first-child {
+    @apply mr-auto;
+}
+
+/* Header cell */
+.mantine-Table-th .mrt-table-head-cell-content {
+    @apply flex items-center gap-2;
+}
+.mantine-Table-th .mrt-table-head-cell-labels {
+    @apply flex items-center gap-1;
+}
+.mantine-Table-th .mrt-table-head-sort-button {
+    @apply h-5 min-h-5 w-5 min-w-5;
+}
+
+/* Show Hide Column Menu */
+.mantine-Menu-item .MRT_ShowHideColumnsMenuItems-module_menu__CeATR {
+    @apply flex items-center gap-2;
+}
+
+.mantine-Table-td .mantine-ActionIcon-root {
+    @apply h-4 min-h-4 w-4 min-w-4;
+}
